@@ -1,49 +1,49 @@
-#include <stdio.h>
-
-int main()
-{
-    char ch;
-
-    /* Input an alphabet from user */
-    printf("Enter any alphabet: ");
-    scanf("%c", &ch);
-
-    /* Switch value of ch */
-    switch(ch)
+    #include <stdio.h>
+    
+    int main()
     {
-        case 'a': 
+        char ch;
+    
+        /* Input an alphabet from user */
+        printf("Enter any alphabet: ");
+        scanf("%c", &ch);
+    
+        /* Switch value of ch */
+        switch (ch)
+        {
+        case 'a':
             printf("Vowel");
             break;
-        case 'e': 
+        case 'e':
             printf("Vowel");
             break;
-        case 'i': 
+        case 'i':
             printf("Vowel");
             break;
-        case 'o': 
+        case 'o':
             printf("Vowel");
             break;
-        case 'u': 
+        case 'u':
             printf("Vowel");
             break;
-        case 'A': 
+        case 'A':
             printf("Vowel");
             break;
-        case 'E': 
+        case 'E':
             printf("Vowel");
             break;
-        case 'I': 
+        case 'I':
             printf("Vowel");
             break;
-        case 'O': 
+        case 'O':
             printf("Vowel");
             break;
-        case 'U': 
+        case 'U':
             printf("Vowel");
             break;
-        default: 
+        default:
             printf("Consonant");
+        }
+    
+        return 0;
     }
-
-    return 0;
-}
